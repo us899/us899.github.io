@@ -1,5 +1,4 @@
 <?php
-if(isset($_POST['submit'])) {
     $name = $_POST['name'];
     $visiter_email = $_POST['email'];
     $message = $_POST['message'];
@@ -13,6 +12,5 @@ if(isset($_POST['submit'])) {
     $txt = "Name: ".$name."\nEmail: ".$visiter_email."\nMessage:\n".message;
 
     mail($mail_to, $email_subject, $txt, $headers);
-    header("Location: index.html?mailsend");
-}
+    header("Location: index.html");
 ?>
