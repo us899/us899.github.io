@@ -4,8 +4,8 @@ Hey, its my portfolio site.
 ## Technologies Used:
 1. **HTML/CSS**
 2. **JS(JQuery)**
-3. Sass
-4. PHP
+3. **Sass**
+4. **PHP**
 ### Contact Me:
 * [Email](mailto:utsavsingh899@gmail.com)
 * [Instagram](https://www.instagram.com/us_codes/)
