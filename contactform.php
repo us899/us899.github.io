@@ -8,9 +8,9 @@
     $email_subject = "Contact Message from ".$visiter_email;
 
     $headers = "From: ".$email_from;
-    // $headers .= "Reply-to: ".visiter_email;
+    $headers .= "Reply-to: ".visiter_email;
     $txt = "Name: ".$name."\nEmail: ".$visiter_email."\nMessage:\n".message;
 
-    mail($mail_to, $email_subject, $txt, $headers);
+    mail($email_to, $email_subject, $txt, $headers);
     header("Location: index.html");
 ?>
