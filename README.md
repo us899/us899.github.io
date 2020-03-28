@@ -3,7 +3,7 @@ Hey, it's my portfolio site. Visit [us899.github.io](https://us899.github.io) to
 
 ## NOTE:
 * GitHub doesn't support PHP, so the PHP part(contactform.php) has not been linked to the main file(index.html). Instead to send the mail I've used the mailto attribute.
-* The contact form doesn't work for android.
+* The contact form doesn't work for android. If you wish to contact then tap on my email and it will bring up gmail or your default mailer.
 
 ## Technologies Used:
 1. **HTML/CSS**
